@@ -1,0 +1,16 @@
+Test Case ID,Module,Test Description,Expected Result,Actual Result,Status (Pass/Fail),Remarks
+TC001,Authentication,Verify user can sign up using email/password,User should be registered successfully,User registered successfully,Pass,N/A
+TC002,Authentication,Test Google Sign-In,User should log in using Google,Login successful,Pass,N/A
+TC003,Authentication,Ensure unauthorized users cannot access dashboard,Restricted users should be redirected,Redirected to login page,Pass,N/A
+TC004,Courses,Verify course listing page loads correctly,Courses should be displayed,All courses displayed,Pass,N/A
+TC005,Courses,Test course enrollment functionality,User should be enrolled successfully,Enrollment successful,Pass,N/A
+TC006,Courses,Check if enrolled courses appear in student dashboard,Enrolled courses should be visible,Visible in dashboard,Pass,N/A
+TC007,Cart & Checkout,Verify adding courses to cart,Courses should be added to cart,Courses added,Pass,N/A
+TC008,Cart & Checkout,Test checkout process,User should be able to complete payment,Payment successful,Pass,N/A
+TC009,Cart & Checkout,Ensure order confirmation is sent via email,User should receive an email,Email received,Pass,N/A
+TC010,Reservations,Test booking a live session,User should be able to reserve a slot,Reservation successful,Pass,N/A
+TC011,Performance,Check page load speed,Should load under 2s,1.5s,Pass,Optimized caching applied
+TC012,Security,Ensure API routes are protected,Unauthorized access should be blocked,Access denied,Pass,N/A
+TC013,Security,Test CSRF protection,CSRF attacks should be blocked,Blocked successfully,Pass,N/A
+TC014,Security,Validate secure payment processing,Payments should be securely handled,Processed securely,Pass,N/A
+TC015,UI/UX,Test mobile responsiveness,UI should be fully responsive,Responsive on all devices,Pass,N/A
